@@ -95,6 +95,6 @@ trait ViewTrait
         ];
 
 
-        return $this->view($return['view'], $return);
+        return $this->view($return);
     }
 }
